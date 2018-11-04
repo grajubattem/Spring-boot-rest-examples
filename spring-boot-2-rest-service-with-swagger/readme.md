@@ -210,10 +210,10 @@ public class Student {
 ```
 ---
 
-### /src/main/java/com/in28minutes/springboot/rest/example/student/StudentNotFoundException.java
+### /src/main/java/com/raju/springboot/rest/example/student/StudentNotFoundException.java
 
 ```java
-package com.in28minutes.springboot.rest.example.student;
+package com.raju.springboot.rest.example.student;
 
 public class StudentNotFoundException extends RuntimeException {
 
@@ -330,10 +330,10 @@ public class StudentResource {
 ```
 ---
 
-### /src/main/java/com/in28minutes/springboot/rest/example/swagger/ApiDocumentationConfig.java
+### /src/main/java/com/raju/springboot/rest/example/swagger/ApiDocumentationConfig.java
 
 ```java
-package com.in28minutes.springboot.rest.example.swagger;
+package com.raju.springboot.rest.example.swagger;
 
 import io.swagger.annotations.Contact;
 import io.swagger.annotations.ExternalDocs;
@@ -348,8 +348,8 @@ import io.swagger.annotations.SwaggerDefinition;
                 title = "Awesome Resource API",
                 contact = @Contact(
                    name = "Ranga Karanam", 
-                   email = "ranga.karanam@in28minutes.com", 
-                   url = "http://www.in28minutes.com"
+                   email = "ranga.karanam@raju.com", 
+                   url = "http://www.raju.com"
                 ),
                 license = @License(
                    name = "Apache 2.0", 
@@ -359,7 +359,7 @@ import io.swagger.annotations.SwaggerDefinition;
         consumes = {"application/json", "application/xml"},
         produces = {"application/json", "application/xml"},
         schemes = {SwaggerDefinition.Scheme.HTTP, SwaggerDefinition.Scheme.HTTPS},
-        externalDocs = @ExternalDocs(value = "Read This For Sure", url = "http://in28minutes.com")
+        externalDocs = @ExternalDocs(value = "Read This For Sure", url = "http://raju.com")
 )
 public interface ApiDocumentationConfig {
 
@@ -367,10 +367,10 @@ public interface ApiDocumentationConfig {
 ```
 ---
 
-### /src/main/java/com/in28minutes/springboot/rest/example/swagger/SwaggerConfig.java
+### /src/main/java/com/raju/springboot/rest/example/swagger/SwaggerConfig.java
 
 ```java
-package com.in28minutes.springboot.rest.example.swagger;
+package com.raju.springboot.rest.example.swagger;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -390,7 +390,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class SwaggerConfig {
 
   public static final Contact DEFAULT_CONTACT = new Contact(
-      "Ranga Karanam", "http://www.in28minutes.com", "in28minutes@gmail.com");
+      "Raju Battem", "http://www.raju.com", "graju.battem@gmail.com");
   
   public static final ApiInfo DEFAULT_API_INFO = new ApiInfo(
       "Awesome API Title", "Awesome API Description", "1.0",
@@ -429,10 +429,10 @@ values(10002,'Ravi', 'A1234568');
 ```
 ---
 
-### /src/test/java/com/in28minutes/springboot/rest/example/SpringBoot2RestServiceApplicationTests.java
+### /src/test/java/com/raju/springboot/rest/example/SpringBoot2RestServiceApplicationTests.java
 
 ```java
-package com.in28minutes.springboot.rest.example;
+package com.raju.springboot.rest.example;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
