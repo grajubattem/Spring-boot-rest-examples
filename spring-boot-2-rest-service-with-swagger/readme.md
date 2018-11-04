@@ -1,5 +1,5 @@
 <!---
-Current Directory : /in28Minutes/git/spring-boot-examples/spring-boot-2-rest-service-with-swagger
+Current Directory : /raju/git/spring-boot-examples/spring-boot-2-rest-service-with-swagger
 -->
 
 ## Complete Code Example
@@ -13,7 +13,7 @@ Current Directory : /in28Minutes/git/spring-boot-examples/spring-boot-2-rest-ser
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.in28minutes.springboot.rest.example</groupId>
+	<groupId>com.raju.springboot.rest.example</groupId>
 	<artifactId>spring-boot-2-rest-service-swagger</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
