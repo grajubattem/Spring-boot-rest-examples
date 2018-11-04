@@ -133,10 +133,10 @@ Current Directory : /raju/git/spring-boot-examples/spring-boot-2-rest-service-wi
 ```
 ---
 
-### /src/main/java/com/in28minutes/springboot/rest/example/SpringBoot2RestServiceApplication.java
+### /src/main/java/com/raju/springboot/rest/example/SpringBoot2RestServiceApplication.java
 
 ```java
-package com.in28minutes.springboot.rest.example;
+package com.raju.springboot.rest.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -151,10 +151,10 @@ public class SpringBoot2RestServiceApplication {
 ```
 ---
 
-### /src/main/java/com/in28minutes/springboot/rest/example/student/Student.java
+### /src/main/java/com/raju/springboot/rest/example/student/Student.java
 
 ```java
-package com.in28minutes.springboot.rest.example.student;
+package com.raju.springboot.rest.example.student;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -225,10 +225,10 @@ public class StudentNotFoundException extends RuntimeException {
 ```
 ---
 
-### /src/main/java/com/in28minutes/springboot/rest/example/student/StudentRepository.java
+### /src/main/java/com/raju/springboot/rest/example/student/StudentRepository.java
 
 ```java
-package com.in28minutes.springboot.rest.example.student;
+package com.raju.springboot.rest.example.student;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
@@ -240,10 +240,10 @@ public interface StudentRepository extends JpaRepository<Student, Long>{
 ```
 ---
 
-### /src/main/java/com/in28minutes/springboot/rest/example/student/StudentResource.java
+### /src/main/java/com/raju/springboot/rest/example/student/StudentResource.java
 
 ```java
-package com.in28minutes.springboot.rest.example.student;
+package com.raju.springboot.rest.example.student;
 
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.methodOn;
