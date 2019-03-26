@@ -23,7 +23,7 @@ public class StudentController {
 	@Autowired
 	private StudentService studentService;
 
-	@GetMapping("/students/{studentId}/coursesTest")
+	@GetMapping("/students/{studentId}/courses")
 	public List<Course> retrieveCoursesForStudent(@PathVariable String studentId) {
 		return studentService.retrieveCourses(studentId);
 	}
