@@ -34,6 +34,7 @@ public class StudentController {
 		return studentService.retrieveCourse(studentId, courseId);
 	}
 	
+	//comments added
 	@PostMapping("/students/{studentId}/courses")
 	public ResponseEntity<Void> registerStudentForCourse(
 			@PathVariable String studentId, @RequestBody Course newCourse) {
